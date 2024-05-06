@@ -1,0 +1,138 @@
+.formcontainer {
+  margin-top: 0px;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: rgb(255, 255, 255);
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+}
+.main{
+  margin-top: 0px;
+  color:white;
+}
+.loginform label {
+  margin-bottom: 5px;
+}
+
+#name{
+  margin-top: -20px;
+}
+#email{
+  margin-top: -20px;
+}
+#password{
+  margin-top: -20px;
+}
+
+
+#email{
+  margin-top: -15px;
+}
+#password{
+  margin-top: -15px;
+}
+
+.loginform input[type="email"]{
+margin-bottom: -10px;
+width: auto;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+.loginform input[type="password"] {
+  margin-bottom: -10px;
+  width: auto;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.loginform input[type="checkbox"] {
+  margin-right: 10px;
+}
+.logo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 10%;
+  height: 10%;
+}
+.logo img{
+  width: 150px;
+  height: 100%;
+  padding: 0px;
+  margin-top: 0px;
+}
+.loginform button[type="submit"] {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.loginform button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.loginform a {
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+.loginform a:hover {
+  text-decoration: underline;
+}
+
+.loginform p {
+  margin-top: 10px;
+  text-align: center;
+}
+.none{
+  height: 73px;
+}
+.home{
+  margin-top: 20px;
+  margin-right: 20px;
+ background-color: #ffffff;
+ float: right;
+ border-radius: 10px;
+ border: 1px solid #ffffff;
+ height: 15%;
+ padding: 10px 10px;
+ font-weight: bolder;
+
+}
+.home:hover{
+  background-color: #acacac;
+  border-color: #acacac;
+  transition: 0.5s ease-out; 
+}
+.home:not(:hover) {
+  background-color: #ffffff;
+  transition: 0.7s ease; 
+}
+.navjet{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media  (max-width: 768px) {
+  .formcontainer {
+    width: 100%;
+  }
+  .logo img{
+    display: none;
+  }
+}
