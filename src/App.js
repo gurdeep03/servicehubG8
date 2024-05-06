@@ -1,6 +1,5 @@
 import Aos from "aos";
 import "aos/dist/aos.css";
-import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import Home from "./pages/Home";
@@ -9,7 +8,6 @@ import Login from "./pages/login";
 import Tasks from "./pages/tasks";
 import Elect from "./pages/electrical";
 import Connect from "./pages/connect";
-import { useRef } from 'react';
 
 
 import { useEffect } from "react";
