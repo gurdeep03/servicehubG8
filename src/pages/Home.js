@@ -1,8 +1,6 @@
 import React from "react";
 import styles from "../App.module.css";
 import { Link } from 'react-router-dom';
-//import "../script.js";
-import{ FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faPhone,faEnvelope,faUser,faPenToSquare,faHouse} from '@fortawesome/free-solid-svg-icons'
 
