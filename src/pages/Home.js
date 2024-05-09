@@ -21,7 +21,7 @@ function home() {
             <div className={styles.url} data-aos="fade-left">
               <ul>
                 <li>
-                  <a href="#help" className={styles.nava}>
+                  <a  className={styles.nava}>
                     Services
                   </a>
                 </li>
