@@ -36,7 +36,7 @@ function home() {
             </ul>
             <ul id={styles.btn}>
               <li>
-                <a className={styles.Btn} href="Provider.html">
+                <a className={styles.Btn}>
                   Join Us
                 </a>
               </li>
