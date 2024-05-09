@@ -190,34 +190,34 @@ function home() {
           <Link to="/Tasks"><a style={{ "--clr": "#522522" }}>
             Cleaning
           </a></Link>
-          <Link to="/Tasks"><a href="tasks.html" style={{ "--clr": "#522522" }}>
+          <Link to="/Tasks"><a style={{ "--clr": "#522522" }}>
             Plumbing Help
           </a></Link>
-          <Link to="/Tasks"><a href="tasks.html" style={{ "--clr": "#522522" }}>
+          <Link to="/Tasks"><a  style={{ "--clr": "#522522" }}>
             Gardening Services
           </a></Link>
-          <Link to="/Tasks"><a href="tasks.html" style={{ "--clr": "#522522" }}>
+          <Link to="/Tasks"><a  style={{ "--clr": "#522522" }}>
             Woodworking services
           </a></Link>
-          <Link to="/electrical"><a href="tasks.html" style={{ "--clr": "#522522" }}>
+          <Link to="/electrical"><a style={{ "--clr": "#522522" }}>
             Electrical repairs
           </a></Link>
-          <Link to="/Tasks"><a href="tasks.html" style={{ "--clr": "#522522" }}>
+          <Link to="/Tasks"><a style={{ "--clr": "#522522" }}>
             Mobile car wash and detailing services
           </a></Link>
-          <Link to="/Tasks"><a href="tasks.html" style={{ "--clr": "#522522" }}>
+          <Link to="/Tasks"><a  style={{ "--clr": "#522522" }}>
             Pest removal and prevention services
           </a></Link>
-          <Link to="/Tasks"><a href="tasks.html" style={{ "--clr": "#522522" }}>
+          <Link to="/Tasks"><a  style={{ "--clr": "#522522" }}>
             Event planning
           </a></Link>
-          <Link to="/Tasks"><a href="tasks.html" style={{ "--clr": "#522522" }}>
+          <Link to="/Tasks"><a style={{ "--clr": "#522522" }}>
             Cooking
           </a></Link>
-          <Link to="/Tasks"><a href="tasks.html" style={{ "--clr": "#522522" }}>
+          <Link to="/Tasks"><a style={{ "--clr": "#522522" }}>
             Car repairs
           </a></Link>
-          <Link to="/Tasks"><a href="tasks.html" style={{ "--clr": "#522522" }}>
+          <Link to="/Tasks"><a  style={{ "--clr": "#522522" }}>
             House Painting
           </a></Link>
         </div><div className={styles.about}>
