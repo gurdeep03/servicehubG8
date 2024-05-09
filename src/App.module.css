@@ -332,13 +332,13 @@ nav li {
   margin-right: 20px;
 }
 
-nav a {
+nav button {
   color: #333;
   font-weight: bold;
   text-decoration: none;
 }
 
-nav a:hover {
+nav button:hover {
   background-color: #ddd;
 }
 
