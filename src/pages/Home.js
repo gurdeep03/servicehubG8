@@ -63,61 +63,61 @@ function home() {
           </div>
           <div className={styles.empty}></div>
         </main><div className={styles.houseservices}>
-          <a className={styles.serviceitem}>
+          <div className={styles.serviceitem}>
             <img src="cleaning.png" alt="Cleaning service" />
             <h2>Cleaning</h2>
             <p>Daily or weekly cleaning services for your home.</p>
-          </a>
-          <a className={styles.serviceitem}>
+          </div>
+          <div className={styles.serviceitem}>
             <img src="car-repair.jpg" alt="Car repair service" />
             <h2> Car Repairs</h2>
             <p>Handyman services for repairs and maintenance.</p>
-          </a>
-          <a className={styles.serviceitem}>
+          </div>
+          <div className={styles.serviceitem}>
             <img src="gardening.jpg" alt="Gardening service" />
             <h2>Gardening</h2>
             <p>Lawn care and gardening services.</p>
-          </a>
-          <a className={styles.serviceitem}>
+          </div>
+          <div className={styles.serviceitem}>
             <img src="carpentry.png" alt="Carpentry service" />
             <h2>Carpentry</h2>
             <p>Custom carpentry and woodworking services.</p>
-          </a>
-          <a className={styles.serviceitem}>
+          </div>
+          <div className={styles.serviceitem}>
             <img src="cooking.png" alt="Cooking service" />
             <h2>Cooking</h2>
             <p>Private chef or meal preparation services.</p>
-          </a>
-          <a className={styles.serviceitem}>
+          </div>
+          <div className={styles.serviceitem}>
             <img src="painting.png" alt="Painting service" />
             <h2>Painting</h2>
             <p>Interior and exterior painting services.</p>
-          </a>
-          <a className={styles.serviceitem}>
+          </div>
+          <div className={styles.serviceitem}>
             <img src="Plumbing.jpg" alt="Plumbing service" />
             <h2>Plumbing</h2>
             <p>Plumbing repairs and installations.</p>
-          </a>
-          <a className={styles.serviceitem}>
+          </div>
+          <div className={styles.serviceitem}>
             <img src="electricity.jpg" alt="Electrical service" />
             <h2>Electrical</h2>
             <p>Electrical repairs and installations.</p>
-          </a>
-          <a className={styles.serviceitem}>
+          </div>
+          <div className={styles.serviceitem}>
             <img src="carwash.jpeg" alt="Car wash service" />
             <h2>Car Wash</h2>
             <p>Mobile car wash and detailing services.</p>
-          </a>
-          <a className={styles.serviceitem}>
+          </div>
+          <div className={styles.serviceitem}>
             <img src="event planning.jpg" alt="Event planning service" />
             <h2>Event Planning</h2>
             <p>Full-service event planning and coordination.</p>
-          </a>
-          <a className={styles.serviceitem}>
+          </div>
+          <div className={styles.serviceitem}>
             <img src="pest-control.jpeg" alt="Pest control service" />
             <h2>Pest Control</h2>
             <p>Pest removal and prevention services.</p>
-          </a>
+          </div>
         </div><div className={styles.container}>
           <h1 data-aos="fade-right">Your Satisfaction, Guaranteed</h1>
           <div className={styles.headings}>
@@ -255,9 +255,9 @@ function home() {
           </div>
 
           <div id={styles.connect}>
-          <Link to="/Connect"><a style={{ color: "#522522", textDecoration: "none" }}>
+          <Link to="/Connect"><h5 style={{ color: "#522522", textDecoration: "underline" }}>
               <span id="connect-value"> &#63; </span>
-            </a></Link>
+            </h5></Link>
           </div>
         </div>
       </div>
