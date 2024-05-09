@@ -28,7 +28,7 @@ function Login() {
             <input type="checkbox" id="remember-me" name="remember-me" />Remember me
           </label><br />
           <button type="submit">Login</button><br />
-          <a href="/forgot.html">Forgot Password?</a><br />
+          <a>Forgot Password?</a><br />
           <p>Don't have an account?<a>Register</a></p>
         </form>
       </div>
