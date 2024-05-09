@@ -29,7 +29,7 @@ function Login() {
           </label><br />
           <button type="submit">Login</button><br />
           <a href="/forgot.html">Forgot Password?</a><br />
-          <p>Don't have an account?<a href="register.html">Register</a></p>
+          <p>Don't have an account?<a>Register</a></p>
         </form>
       </div>
       <div className={styles.none}></div>
