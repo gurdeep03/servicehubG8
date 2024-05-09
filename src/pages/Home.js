@@ -21,24 +21,24 @@ function home() {
             <div className={styles.url} data-aos="fade-left">
               <ul>
                 <li>
-                  <a  className={styles.nava}>
+                  <button href="#help" className={styles.nava}>
                     Services
-                  </a>
+                  </button>
                 </li>
                 <li>
-                  <a className={styles.nava}>Sign up</a>
+                  <button className={styles.nava}>Sign up</button>
                 </li>
                 <li>
-                  <Link to="/Login"><a className={styles.login}>
-                    Log in</a></Link>
+                  <Link to="/Login"><button className={styles.login}>
+                    Log in</button></Link>
               </li>
 
             </ul>
             <ul id={styles.btn}>
               <li>
-                <a className={styles.Btn}>
+                <button className={styles.Btn} href="Provider.html">
                   Join Us
-                </a>
+                </button>
               </li>
             </ul>
           </div>
@@ -187,39 +187,39 @@ function home() {
         </div><div id={styles.help}>
           <h2>Get Help Today</h2>
         </div><div className={styles.serve}>
-          <Link to="/Tasks"><a style={{ "--clr": "#522522" }}>
-            Cleaning
-          </a></Link>
-          <Link to="/Tasks"><a style={{ "--clr": "#522522" }}>
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
+            Clebuttonning
+          </button></Link>
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
             Plumbing Help
-          </a></Link>
-          <Link to="/Tasks"><a  style={{ "--clr": "#522522" }}>
-            Gardening Services
-          </a></Link>
-          <Link to="/Tasks"><a  style={{ "--clr": "#522522" }}>
+          </button></Link>
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
+            Gbuttonrdening Services
+          </button></Link>
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
             Woodworking services
-          </a></Link>
-          <Link to="/electrical"><a style={{ "--clr": "#522522" }}>
-            Electrical repairs
-          </a></Link>
-          <Link to="/Tasks"><a style={{ "--clr": "#522522" }}>
-            Mobile car wash and detailing services
-          </a></Link>
-          <Link to="/Tasks"><a  style={{ "--clr": "#522522" }}>
-            Pest removal and prevention services
-          </a></Link>
-          <Link to="/Tasks"><a  style={{ "--clr": "#522522" }}>
-            Event planning
-          </a></Link>
-          <Link to="/Tasks"><a style={{ "--clr": "#522522" }}>
+          </button></Link>
+          <Link to="/electricbuttonl"><button style={{ "--clr": "#522522" }}>
+            Electricbuttonl repbuttonirs
+          </button></Link>
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
+            Mobile cbuttonr wbuttonsh buttonnd detailing services
+          </button></Link>
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
+            Pest removbuttonl buttonnd prevention services
+          </button></Link>
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
+            Event plbuttonnning
+          </button></Link>
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
             Cooking
-          </a></Link>
-          <Link to="/Tasks"><a style={{ "--clr": "#522522" }}>
-            Car repairs
-          </a></Link>
-          <Link to="/Tasks"><a  style={{ "--clr": "#522522" }}>
+          </button></Link>
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
+            Cbuttonr repbuttonirs
+          </button></Link>
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
             House Painting
-          </a></Link>
+          </button></Link>
         </div><div className={styles.about}>
           <div className={styles.aboutus}>• About Us •</div>
           <div className={styles.sect}>
