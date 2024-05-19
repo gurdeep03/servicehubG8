@@ -15,30 +15,27 @@ function home() {
         <header>
           <nav className={styles.navbar}>
             <div className={styles.sec} data-aos="fade-right">
-              <img src="download1.png" alt="logo" /> {/* Adding logo image */}
-              <img src="slogan3.png" alt="slogan" />
+              <img src="download1.png" alt=""/> {/* Adding logo image */}
+              <img src="slogan3.png" alt="" />
             </div>
             <div className={styles.url} data-aos="fade-left">
               <ul>
+                
                 <li>
-                  <button href="#help" className={styles.nava}>
-                    Services
-                  </button>
+                <Link style={{ textDecoration: 'none'}} to="/Login"><button  className={styles.nava}>Sign up</button></Link>
+                  
                 </li>
                 <li>
-                  <button className={styles.nava}>Sign up</button>
-                </li>
-                <li>
-                  <Link to="/Login"><button className={styles.login}>
+                  <Link style={{ textDecoration: 'none'}} to="/Login"><button className={styles.login}>
                     Log in</button></Link>
               </li>
 
             </ul>
             <ul id={styles.btn}>
               <li>
-                <button className={styles.Btn} href="Provider.html">
+              <Link style={{ textDecoration: 'none'}} to="/provider"><button className={styles.Btn}>
                   Join Us
-                </button>
+                </button></Link>
               </li>
             </ul>
           </div>
@@ -56,7 +53,7 @@ function home() {
               </div>
               <div className="search-button">
                 <button id={styles.searchbutton} type="button">
-                  <img src="searchicon.png" alt="Search" />
+                  <img src="searchicon.png" alt="" />
                 </button>
               </div>
             </div>
@@ -64,57 +61,57 @@ function home() {
           <div className={styles.empty}></div>
         </main><div className={styles.houseservices}>
           <div className={styles.serviceitem}>
-            <img src="cleaning.png" alt="Cleaning service" />
+            <img src="cleaning.png" alt="" />
             <h2>Cleaning</h2>
             <p>Daily or weekly cleaning services for your home.</p>
           </div>
           <div className={styles.serviceitem}>
-            <img src="car-repair.jpg" alt="Car repair service" />
+            <img src="car-repair.jpg" alt="" />
             <h2> Car Repairs</h2>
             <p>Handyman services for repairs and maintenance.</p>
           </div>
           <div className={styles.serviceitem}>
-            <img src="gardening.jpg" alt="Gardening service" />
+            <img src="gardening.jpg" alt="" />
             <h2>Gardening</h2>
             <p>Lawn care and gardening services.</p>
           </div>
           <div className={styles.serviceitem}>
-            <img src="carpentry.png" alt="Carpentry service" />
+            <img src="carpentry.png" alt="" />
             <h2>Carpentry</h2>
             <p>Custom carpentry and woodworking services.</p>
           </div>
           <div className={styles.serviceitem}>
-            <img src="cooking.png" alt="Cooking service" />
+            <img src="cooking.png" alt="" />
             <h2>Cooking</h2>
             <p>Private chef or meal preparation services.</p>
           </div>
           <div className={styles.serviceitem}>
-            <img src="painting.png" alt="Painting service" />
+            <img src="painting.png" alt="" />
             <h2>Painting</h2>
             <p>Interior and exterior painting services.</p>
           </div>
           <div className={styles.serviceitem}>
-            <img src="Plumbing.jpg" alt="Plumbing service" />
+            <img src="Plumbing.jpg" alt="" />
             <h2>Plumbing</h2>
             <p>Plumbing repairs and installations.</p>
           </div>
           <div className={styles.serviceitem}>
-            <img src="electricity.jpg" alt="Electrical service" />
+            <img src="electricity.jpg" alt="" />
             <h2>Electrical</h2>
             <p>Electrical repairs and installations.</p>
           </div>
           <div className={styles.serviceitem}>
-            <img src="carwash.jpeg" alt="Car wash service" />
+            <img src="carwash.jpeg" alt="" />
             <h2>Car Wash</h2>
             <p>Mobile car wash and detailing services.</p>
           </div>
           <div className={styles.serviceitem}>
-            <img src="event planning.jpg" alt="Event planning service" />
+            <img src="event planning.jpg" alt="" />
             <h2>Event Planning</h2>
             <p>Full-service event planning and coordination.</p>
           </div>
           <div className={styles.serviceitem}>
-            <img src="pest-control.jpeg" alt="Pest control service" />
+            <img src="pest-control.jpeg" alt="" />
             <h2>Pest Control</h2>
             <p>Pest removal and prevention services.</p>
           </div>
@@ -154,7 +151,7 @@ function home() {
         <div className={styles.working}>
           <div data-aos="zoom-in" className="bg">
             <div className={styles.picture}>
-              <img src="how.jpg" alt="How it works image" />
+              <img src="how.jpg" alt="" />
             </div>
 
             <div id={styles.howitworks}>
@@ -188,34 +185,34 @@ function home() {
           <h2>Get Help Today</h2>
         </div><div className={styles.serve}>
           <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
-            Clebuttonning
+            Cleaning
           </button></Link>
           <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
             Plumbing Help
           </button></Link>
           <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
-            Gbuttonrdening Services
+            Gardening Services
           </button></Link>
           <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
             Woodworking services
           </button></Link>
           <Link to="/electricbuttonl"><button style={{ "--clr": "#522522" }}>
-            Electricbuttonl repbuttonirs
+            Electrical repairs
           </button></Link>
           <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
-            Mobile cbuttonr wbuttonsh buttonnd detailing services
+            AutoMobile car wash and detailing services
           </button></Link>
           <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
-            Pest removbuttonl buttonnd prevention services
+            Pest removal and prevention services
           </button></Link>
           <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
-            Event plbuttonnning
+            Event planing
           </button></Link>
           <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
             Cooking
           </button></Link>
           <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
-            Cbuttonr repbuttonirs
+            Car repairs
           </button></Link>
           <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
             House Painting
@@ -255,7 +252,7 @@ function home() {
           </div>
 
           <div id={styles.connect}>
-          <Link to="/Connect"><h5 style={{ color: "#522522", textDecoration: "underline" }}>
+          <Link style={{ textDecoration: 'none'}} to="/Connect"><h5 style={{ color: "#522522"}}>
               <span id="connect-value"> &#63; </span>
             </h5></Link>
           </div>
