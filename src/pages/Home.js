@@ -204,9 +204,9 @@ function home() {
           </button></Link>
           <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
             Pest removal and prevention services
-          </button></Link>   
+          </button></Link>
           <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
-            Event planing
+            Event planning
           </button></Link>
           <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
             Cooking
