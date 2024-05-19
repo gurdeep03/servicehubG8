@@ -1,8 +1,6 @@
 import React from "react";
 import styles from "../App.module.css";
 import { Link } from 'react-router-dom';
-//import "../script.js";
-import{ FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faPhone,faEnvelope,faUser,faPenToSquare,faHouse} from '@fortawesome/free-solid-svg-icons'
 
@@ -17,30 +15,27 @@ function home() {
         <header>
           <nav className={styles.navbar}>
             <div className={styles.sec} data-aos="fade-right">
-              <img src="download1.png" alt="logo" /> {/* Adding logo image */}
-              <img src="slogan3.png" alt="slogan" />
+              <img src="download1.png" alt=""/> {/* Adding logo image */}
+              <img src="slogan3.png" alt="" />
             </div>
             <div className={styles.url} data-aos="fade-left">
               <ul>
+                
                 <li>
-                  <a href="#help" className={styles.nava}>
-                    Services
-                  </a>
+                <Link style={{ textDecoration: 'none'}} to="/Login"><button  className={styles.nava}>Sign up</button></Link>
+                  
                 </li>
                 <li>
-                  <a className={styles.nava}>Sign up</a>
-                </li>
-                <li>
-                  <Link to="/Login"><a className={styles.login}>
-                    Log in</a></Link>
+                  <Link style={{ textDecoration: 'none'}} to="/Login"><button className={styles.login}>
+                    Log in</button></Link>
               </li>
 
             </ul>
             <ul id={styles.btn}>
               <li>
-                <a className={styles.Btn} href="Provider.html">
+              <Link style={{ textDecoration: 'none'}} to="/provider"><button className={styles.Btn}>
                   Join Us
-                </a>
+                </button></Link>
               </li>
             </ul>
           </div>
@@ -58,68 +53,68 @@ function home() {
               </div>
               <div className="search-button">
                 <button id={styles.searchbutton} type="button">
-                  <img src="searchicon.png" alt="Search" />
+                  <img src="searchicon.png" alt="" />
                 </button>
               </div>
             </div>
           </div>
           <div className={styles.empty}></div>
         </main><div className={styles.houseservices}>
-          <a className={styles.serviceitem}>
-            <img src="cleaning.png" alt="Cleaning service" />
+          <div className={styles.serviceitem}>
+            <img src="cleaning.png" alt="" />
             <h2>Cleaning</h2>
             <p>Daily or weekly cleaning services for your home.</p>
-          </a>
-          <a className={styles.serviceitem}>
-            <img src="car-repair.jpg" alt="Car repair service" />
+          </div>
+          <div className={styles.serviceitem}>
+            <img src="car-repair.jpg" alt="" />
             <h2> Car Repairs</h2>
             <p>Handyman services for repairs and maintenance.</p>
-          </a>
-          <a className={styles.serviceitem}>
-            <img src="gardening.jpg" alt="Gardening service" />
+          </div>
+          <div className={styles.serviceitem}>
+            <img src="gardening.jpg" alt="" />
             <h2>Gardening</h2>
             <p>Lawn care and gardening services.</p>
-          </a>
-          <a className={styles.serviceitem}>
-            <img src="carpentry.png" alt="Carpentry service" />
+          </div>
+          <div className={styles.serviceitem}>
+            <img src="carpentry.png" alt="" />
             <h2>Carpentry</h2>
             <p>Custom carpentry and woodworking services.</p>
-          </a>
-          <a className={styles.serviceitem}>
-            <img src="cooking.png" alt="Cooking service" />
+          </div>
+          <div className={styles.serviceitem}>
+            <img src="cooking.png" alt="" />
             <h2>Cooking</h2>
             <p>Private chef or meal preparation services.</p>
-          </a>
-          <a className={styles.serviceitem}>
-            <img src="painting.png" alt="Painting service" />
+          </div>
+          <div className={styles.serviceitem}>
+            <img src="painting.png" alt="" />
             <h2>Painting</h2>
             <p>Interior and exterior painting services.</p>
-          </a>
-          <a className={styles.serviceitem}>
-            <img src="Plumbing.jpg" alt="Plumbing service" />
+          </div>
+          <div className={styles.serviceitem}>
+            <img src="Plumbing.jpg" alt="" />
             <h2>Plumbing</h2>
             <p>Plumbing repairs and installations.</p>
-          </a>
-          <a className={styles.serviceitem}>
-            <img src="electricity.jpg" alt="Electrical service" />
+          </div>
+          <div className={styles.serviceitem}>
+            <img src="electricity.jpg" alt="" />
             <h2>Electrical</h2>
             <p>Electrical repairs and installations.</p>
-          </a>
-          <a className={styles.serviceitem}>
-            <img src="carwash.jpeg" alt="Car wash service" />
+          </div>
+          <div className={styles.serviceitem}>
+            <img src="carwash.jpeg" alt="" />
             <h2>Car Wash</h2>
             <p>Mobile car wash and detailing services.</p>
-          </a>
-          <a className={styles.serviceitem}>
-            <img src="event planning.jpg" alt="Event planning service" />
+          </div>
+          <div className={styles.serviceitem}>
+            <img src="event planning.jpg" alt="" />
             <h2>Event Planning</h2>
             <p>Full-service event planning and coordination.</p>
-          </a>
-          <a className={styles.serviceitem}>
-            <img src="pest-control.jpeg" alt="Pest control service" />
+          </div>
+          <div className={styles.serviceitem}>
+            <img src="pest-control.jpeg" alt="" />
             <h2>Pest Control</h2>
             <p>Pest removal and prevention services.</p>
-          </a>
+          </div>
         </div><div className={styles.container}>
           <h1 data-aos="fade-right">Your Satisfaction, Guaranteed</h1>
           <div className={styles.headings}>
@@ -156,7 +151,7 @@ function home() {
         <div className={styles.working}>
           <div data-aos="zoom-in" className="bg">
             <div className={styles.picture}>
-              <img src="how.jpg" alt="How it works image" />
+              <img src="how.jpg" alt="" />
             </div>
 
             <div id={styles.howitworks}>
@@ -189,39 +184,39 @@ function home() {
         </div><div id={styles.help}>
           <h2>Get Help Today</h2>
         </div><div className={styles.serve}>
-          <Link to="/Tasks"><a style={{ "--clr": "#522522" }}>
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
             Cleaning
-          </a></Link>
-          <Link to="/Tasks"><a href="tasks.html" style={{ "--clr": "#522522" }}>
+          </button></Link>
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
             Plumbing Help
-          </a></Link>
-          <Link to="/Tasks"><a href="tasks.html" style={{ "--clr": "#522522" }}>
+          </button></Link>
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
             Gardening Services
-          </a></Link>
-          <Link to="/Tasks"><a href="tasks.html" style={{ "--clr": "#522522" }}>
+          </button></Link>
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
             Woodworking services
-          </a></Link>
-          <Link to="/electrical"><a href="tasks.html" style={{ "--clr": "#522522" }}>
+          </button></Link>
+          <Link to="/electricbuttonl"><button style={{ "--clr": "#522522" }}>
             Electrical repairs
-          </a></Link>
-          <Link to="/Tasks"><a href="tasks.html" style={{ "--clr": "#522522" }}>
-            Mobile car wash and detailing services
-          </a></Link>
-          <Link to="/Tasks"><a href="tasks.html" style={{ "--clr": "#522522" }}>
+          </button></Link>
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
+            AutoMobile car wash and detailing services
+          </button></Link>
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
             Pest removal and prevention services
-          </a></Link>
-          <Link to="/Tasks"><a href="tasks.html" style={{ "--clr": "#522522" }}>
-            Event planning
-          </a></Link>
-          <Link to="/Tasks"><a href="tasks.html" style={{ "--clr": "#522522" }}>
+          </button></Link>   
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
+            Event planing
+          </button></Link>
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
             Cooking
-          </a></Link>
-          <Link to="/Tasks"><a href="tasks.html" style={{ "--clr": "#522522" }}>
+          </button></Link>
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
             Car repairs
-          </a></Link>
-          <Link to="/Tasks"><a href="tasks.html" style={{ "--clr": "#522522" }}>
+          </button></Link>
+          <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
             House Painting
-          </a></Link>
+          </button></Link>
         </div><div className={styles.about}>
           <div className={styles.aboutus}>• About Us •</div>
           <div className={styles.sect}>
@@ -257,9 +252,9 @@ function home() {
           </div>
 
           <div id={styles.connect}>
-          <Link to="/Connect"><a style={{ color: "#522522", textDecoration: "none" }}>
+          <Link style={{ textDecoration: 'none'}} to="/Connect"><h5 style={{ color: "#522522"}}>
               <span id="connect-value"> &#63; </span>
-            </a></Link>
+            </h5></Link>
           </div>
         </div>
       </div>

@@ -17,6 +17,7 @@
   margin-top: 0px;
   color:white;
 }
+
 .loginform label {
   margin-bottom: 5px;
 }
@@ -30,7 +31,6 @@
 #password{
   margin-top: -20px;
 }
-
 
 #email{
   margin-top: -15px;
@@ -99,7 +99,7 @@ border-radius: 5px;
   text-align: center;
 }
 .none{
-  height: 73px;
+  height: 76px;
 }
 .home{
   margin-top: 20px;

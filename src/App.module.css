@@ -126,15 +126,16 @@
 }
 #btn {
   margin-left: 5px;
+  margin-right: 20px;
   height: 58px;
-  margin-top: auto;
   width: 180px;
 }
 .Btn {
   width: 185px;
-  height: 58px;
+  height: 55px;
   background: #808080;
   position: relative;
+  color: white;
   display: flex;
   border-radius: 10px;
   margin:auto auto auto 30px;
@@ -332,13 +333,13 @@ nav li {
   margin-right: 20px;
 }
 
-nav a {
+nav button {
   color: #333;
   font-weight: bold;
   text-decoration: none;
 }
 
-nav a:hover {
+nav button:hover {
   background-color: #ddd;
 }
 
@@ -552,9 +553,10 @@ p {
 
 /* Get help section */
 /* gurman */
-.serve a {
+.serve button {
   background-color: #c4baba;
   border-radius: 5px;
+  text-decoration-line: none;
   padding: 10px 5px;
   transition: 0.5s;
   margin-bottom: 20px;
@@ -565,7 +567,7 @@ p {
   cursor: pointer;
 }
 
-.serve a:hover {
+.serve button:hover {
   border-color: var(--clr);
   box-shadow: 0px 0px 35px var(--clr);
 }
