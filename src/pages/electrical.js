@@ -1,15 +1,22 @@
 
 import styles from  "./tasks.module.css";
 import { Link } from 'react-router-dom';
+import{ FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faPhone,faEnvelope,faUser,faPenToSquare,faHouse} from '@fortawesome/free-solid-svg-icons'
+
+library.add(faPhone,faEnvelope,faUser,faPenToSquare,faHouse)
 
 function elect() {
   return (
     <div className={styles.task}>
-      <div className={styles.navjet}>
-      <div className={styles.logo}><img src="download.png" alt="" />
-      </div>
-      <Link to="/"><a className={styles.home}>Home</a></Link>
-      </div>
+     <div className={styles.navjet}>
+                <div className={styles.logo}><img src="download.png" alt="" />
+                </div>
+                <div className={styles.home}>
+                <Link to="/"><FontAwesomeIcon id={styles.homeicon} icon={faHouse} /></Link>
+                </div>
+            </div>
     <div className={styles.all}>
       <section className={styles.side}>
         <img src="electricity.jpg" alt="" />
@@ -18,8 +25,6 @@ function elect() {
       <section className={styles.main}>
         <div className={styles.logincontainer}>
           <p className={styles.title}>
-            <h1></h1> 
-            <h2></h2>
           </p>
           <div className={styles.seprator}></div>
           <p className={styles.welcomemessage}></p>

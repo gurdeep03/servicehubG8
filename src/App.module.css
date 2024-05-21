@@ -615,6 +615,7 @@ p {
 .aboutussec {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 30px;
+  color: aliceblue;
   text-align: left;
   display: none;
 }
@@ -650,7 +651,7 @@ p {
   transform: scale(1.1);
 }
 
-.socialicons {
+.socialicon {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -663,7 +664,7 @@ p {
   opacity: 1;
 }
 
-.socialicons a {
+.socialicon a {
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -905,3 +906,73 @@ html {
   font-size: 35px;
   color: rgb(106, 53, 53);
 }
+.about {
+  font-family: Satisfy;
+  text-align: center;
+  font-size: 40px;
+  text-align: center;
+  background-color: #666666;
+  color:#e5a799 ;
+}
+
+.about img {
+  height: 200px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.person {
+  position: relative;
+  font-size: 15px;
+  font-family: Quicksand;
+}
+
+.person img {
+  height: 200px;
+  transition: transform 0.3s;
+  border-radius: 30px;
+}
+
+.person:hover img {
+  transform: scale(1.1);
+}
+
+.socialicon {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.person:hover .socialicon {
+  opacity: 1;
+}
+
+.socialicon a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  background-size: cover;
+}
+
+.person:hover::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  z-index: -1;
+  background: #3e1602e3;
+  background-size: 400% 400%;
+  animation: neonBorder 1.5s infinite alternate;
+}
+

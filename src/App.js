@@ -9,8 +9,11 @@ import Tasks from "./pages/tasks";
 import Elect from "./pages/electrical";
 import Connect from "./pages/connect";
 
-
+import "./script";
 import { useEffect } from "react";
+
+
+
 function App() {
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -24,8 +27,9 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/electrical" element={<Elect />} />
         <Route path="/connect" element={<Connect />} />
-        {" "}
         
+        {" "}
+
       </Routes>
     </Router>
   );

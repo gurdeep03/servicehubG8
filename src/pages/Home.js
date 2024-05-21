@@ -196,7 +196,7 @@ function home() {
           <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
             Woodworking services
           </button></Link>
-          <Link to="/electricbuttonl"><button style={{ "--clr": "#522522" }}>
+          <Link to="/electrical"><button style={{ "--clr": "#522522" }}>
             Electrical repairs
           </button></Link>
           <Link to="/Tasks"><button style={{ "--clr": "#522522" }}>
@@ -233,13 +233,7 @@ function home() {
                 </p>
               </div>
             </section>
-            <section className={styles.aboutussec}>
-              <h6>servicehubg8@gmail.com
-              </h6>
-              
-              
-              <h6>9034607228</h6>
-            </section>
+            
           </div>
 
           <div className={styles.text}>

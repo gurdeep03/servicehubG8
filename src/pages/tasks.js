@@ -25,8 +25,6 @@ function tasks() {
       <section className={styles.main}>
         <div className={styles.logincontainer}>
           <p className={styles.title}>
-            <h1></h1> 
-            <h2></h2>
           </p>
           <div className={styles.seprator}></div>
           <p className={styles.welcomemessage}></p>
